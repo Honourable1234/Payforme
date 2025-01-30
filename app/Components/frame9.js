@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Accordion from "./Accordion";
 
 export default function frame9() {
   return (
@@ -18,9 +19,17 @@ export default function frame9() {
         Got Questions?
       </h2>
       <p className="text-[12px] sm:text-[15px] md:text-[19px] lg:text-[24px] text-[#7D7D7D]">We’ve got answers</p>
-      <div>
-        <div></div>
-        <div></div>
+      <div className="flex flex-wrap justify-between items-center mt-[40px] md:mt-[77px]">
+        <div className="w-[459px] h-[508px] flex items-center justify-center m-auto">
+        <Image
+          src="/images/YoungMan.svg"
+          alt="Young Man"
+          width={0}
+          height={0}
+          className="w-[430px] rounded-[24px]"
+        />
+        </div>
+        <Accordion />
       </div>
     </div>
   );
