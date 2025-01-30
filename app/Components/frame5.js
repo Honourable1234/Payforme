@@ -4,7 +4,7 @@ import Steps from "./steps"
 
 export default function frame5() {
   return (
-    <div className="bg-[#FAFAFA] pt-[75px] sm:pt-[100px] md:pt[145px]">
+    <div className="bg-[#FAFAFA] pt-[75px] sm:pt-[100px] md:pt[145px] pb-[100px]">
       <div className="border border-[#E9F8D8] bg-[#E9F8D8] h-[22px] w-[109px] rounded-[32px] mx-auto text-[10px] text-[#3B3A3A] flex items-center justify-center gap-[3px]">
         <Image src="/images/Fast.svg" alt="Fast" width={0} height={0}  className="w-[14px]"/>
         <p className="w-[95px]">HOW IT WORKS</p>

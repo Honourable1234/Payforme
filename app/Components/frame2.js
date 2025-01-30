@@ -19,7 +19,7 @@ export default function frame2() {
           </motion.div>
         </div>
       </div>
-      <div className="bg-[#EAF7DB] w-[100%] sm:w-[90%] m-auto h-[19px] sm:h-[29px] lg:w-[100%] md:h-[39px] rounded-[8px]"></div>
+      <div className="bg-[#EAF7DB] w-[100%] sm:w-[90%] m-auto h-[19px] sm:h-[29px] lg:w-[100%] md:h-[39px] rounded-[8px] z-10 relative"></div>
     </div>
   )
 }
